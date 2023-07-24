@@ -1,11 +1,7 @@
 import React, { useState } from "react";
 import Button from "react-bootstrap/Button";
 
-const Box = () => {
-    const [character, setCharacter] = useState(null);
-    const handleClick = () => {
-      character ? setCharacter(null) : setCharacter("X");
-    };
+const Box = ({value,handleClick}) => {
   return (
     <Button
       xs={1}
@@ -18,7 +14,7 @@ const Box = () => {
         display: "inline-block",
       }}
     >
-      {character}
+      {value}
     </Button>
   );
 };
