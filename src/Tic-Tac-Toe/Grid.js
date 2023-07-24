@@ -27,7 +27,7 @@ const Grid = ({ oIsNext, onPlay, squares }) => {
   }
 
   return (
-    <Container className=" p-3">
+    <Container className=" p-3" style={{minWidth:"220px"}}>
       <Row>{status}</Row>
       <Row>
         <Box value={squares[0]} handleClick={() => handleClick(0)} />
