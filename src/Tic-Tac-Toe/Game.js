@@ -4,7 +4,6 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Grid from "./Grid";
 import { Button } from "react-bootstrap";
-import style from './../../node_modules/dom-helpers/esm/css';
 
 const Game = () => {
   const [history, setHistory] = useState([Array(9).fill(null)]);
