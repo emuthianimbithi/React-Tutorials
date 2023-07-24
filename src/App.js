@@ -2,13 +2,14 @@
 // import DisplayData from "./Displaying-data/DisplayData";
 //import Condition from "./Conditional-rendering/Condition";
 // import Hooks from "./Using-Hooks/Hooks";
-import Grid from "./Tic-Tac-Toe/Grid";
+//import Grid from "./Tic-Tac-Toe/Grid";
+import Game from "./Tic-Tac-Toe/Game";
 import Container from "react-bootstrap/Container";
 
 function App() {
   return (
     <Container fluid>
-      <Grid/>
+      <Game/>
     </Container>
   );
 }
